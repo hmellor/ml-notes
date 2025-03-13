@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - pages
+  workflow_dispatch:
  
 permissions:
   contents: read
@@ -25,7 +26,7 @@ jobs:
       - name: Checkout Content
         uses: actions/checkout@v4
         with:
-          repository: 'hmellor/ml-notes'
+          repository: 'hmellor/ml-notes-private'
           ssh-key: ${{ secrets.ML_NOTES_DEPLOY_KEY }}
           path: 'content'
           fetch-depth: 0 # Fetch all history for git info
