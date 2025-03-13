@@ -13,7 +13,6 @@ export const sharedPageComponents: SharedLayout = {
         repoId: 'R_kgDOOH-dnQ',
         category: 'Comments',
         categoryId: 'DIC_kwDOOH-dnc4Cn_ie',
-
       }
     }),
   ],
