@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-ZERTRHX8JE"
     },
     locale: "en-GB",
     baseUrl: "hmellor.github.io/ml-notes",
